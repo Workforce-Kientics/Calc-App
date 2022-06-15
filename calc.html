@@ -3,41 +3,44 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width= device-width,initial-scale=1.0"></meta>
-<script src="./calculator.js" type="text/javascript"></script>
+
 <title> Salary to Hourly Calculator</title>
+
 
 <body>
     <div id="fulldiv">
    
    
  <label for="txt_annwage">Annual Salary:</label> <br>
- <input type="text" name="annwage" id="annwage" value ="0.00"/> <br>
-  
+ <input type="text" name="annwage" id="annwage"  value =""/> <br>
+ 
 
  <label for="txt_monwage">Monthly Salary:</label><br>
- <input type="text" name="monthwage" id="monwage" value="0.00"/> <br>
+ <input type="text" name="monthwage" id="monwage"  value=""/> <br>
   
 
  <label for="txt_fortwage">Fortnightly Salary:</label><br>
- <input type="text" name="fortwage" id="fwage" value="0.00"/> <br>
+ <input type="text" name="fortwage" id="fwage"  value=""/> <br>
    
  <label for="txt_weekwage">Weekly Salary:</label><br>
- <input type="text" name="weekwage" id="wkwage" value="0.00"/> <br>
+ <input type="text" name="weekwage" id="wkwage"  value=""/> <br>
   
  <label for="txt_daywage">Daily Salary:</label> <br>
- <input type="text" name="daywage" id="dwage" value="0.00"/> <br>
+ <input type="text" name="daywage" id="dwage"  value=""/> <br>
 
 
  <label for="txt_hwage">Hourly Salary:</label> <br>
- <input type="text" name="hwage" id="hourwage" value="0.00"/> <br>
+ <input type="text" name="hwage" id="hourwage" onkeyup="" value=""/> <br>
 
                       
  <label for="txt_hours">Hours Per Week:</label> <br>
- <input type="text" name="hours" id="txt_hours" value= "40 "/> <br></br>
+ <input type="text" name="hours" id="txt_hours" value= " "/> <br></br>
   
-   <button value="calculate" onclick="calcSalary()">Calculate</button><br>
-   <p id="results"></p>
+ <button type="button"  id="calc">Calculate</button><br>
+ 
+ <p id="results"></p>
    </div>
+   <script src="./calculator.js" type="text/javascript"></script>
 </body>
 </head>
 </html>
